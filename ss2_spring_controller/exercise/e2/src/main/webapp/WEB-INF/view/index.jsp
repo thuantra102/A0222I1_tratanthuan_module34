@@ -12,21 +12,19 @@
   </head>
   <body>
   <span>Calculator</span>
-
-    <input name="a" id="a"  type="number">
-    <input name="b" id="b" type="number">
-    <a href="" id="add" onclick="add()">Add</a>
-    <span>${result}</span>
+    <form method="post" action="/save">
+      <input name="a" id="a"  type="number">
+      <input name="b" id="b" type="number">
+      <button name="button" value="add">+</button>
+      <button name="button" value="sub">-</button>
+      <button name="button" value="multi">X</button>
+      <button name="button" value="divide">/</button>
+    </form>
+  <span>${result}</span>
 
 
   </body>
 <script>
 
-  function add() {
-    let a = document.getElementById("a").value;
-    let b = document.getElementById("b").value;
-    console.log(a)
-    document.getElementById("add").href = "/add/" + a + "/" + b;
-  }
 </script>
 </html>
