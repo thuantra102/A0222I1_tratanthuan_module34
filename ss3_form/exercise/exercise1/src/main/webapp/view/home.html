@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/create" th:object="${createForm}">
+    <label>Language</label>
+    <select th:field="*{language}">
+        <option th:value="english" th:text="english"></option>
+        <option th:value="japan" th:text="japan"></option>
+        <option th:value="vietnam" th:text="vietnam"></option>
+    </select>
+
+    <label>Size</label>
+    <select th:field="*{pageSize}">
+        <option th:value="15">15</option>
+        <option th:value="20">20</option>
+        <option th:value="30">30</option>
+    </select><br>
+    <label>Spam</label>
+    <input type="checkbox" th:field="*{spam}"><br>
+    <label>Signature</label>
+    <input type="text" th:field="*{signature}">
+    <button type="submit">Ok</button>
+</form>
+</body>
+</html>
