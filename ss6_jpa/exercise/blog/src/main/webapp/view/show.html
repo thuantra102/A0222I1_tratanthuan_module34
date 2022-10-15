@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name_blog {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 5px;
+        }
+
+        .box_blog {
+            width: 800px;
+            height: 900px;
+            border: solid 2px black;
+            margin: 0 auto;
+        }
+
+       .info_box {
+            display: flex;
+            gap: 10px;
+        }
+
+         .info_box .img {
+            flex: 3;
+        }
+
+       .info_box .info {
+            flex: 7;
+        }
+         .info_box .img img {
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+<div th:insert="~{/common_blog::headerBlog}"></div>
+<div class="box_blog" th:object="${blog}">
+    <div class="info_box">
+        <div class="img">
+            <img th:src="${blog.getUrlImage()}">
+        </div>
+        <div class="info">
+            <p th:text="${blog.name}"></p>
+            <p th:text="${blog.getDateUpload()}"></p>
+        </div>
+
+    </div>
+
+    <p th:text="${blog.getContent()}"></p>
+</div>
+
+
+</body>
+
+</html>

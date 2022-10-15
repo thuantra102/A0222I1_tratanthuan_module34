@@ -20,7 +20,7 @@ public class ProductController {
     @GetMapping()
     public ModelAndView home() {
         ModelAndView modelAndView = new ModelAndView("/list");
-        modelAndView.addObject("list",productService.findAll());
+        modelAndView.addObject(" list",productService.findAll());
         modelAndView.addObject("form",new Product());
         return modelAndView;
     }

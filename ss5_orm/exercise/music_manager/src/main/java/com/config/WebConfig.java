@@ -36,7 +36,7 @@ import java.util.Properties;
 @Configuration
 @EnableTransactionManagement
 @ComponentScan("com")
-//@EnableJpaRepositories("com.repository")
+@EnableJpaRepositories("com.repository")
 public class WebConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
     private ApplicationContext applicationContext;
 
@@ -95,7 +95,7 @@ public class WebConfig extends WebMvcConfigurerAdapter implements ApplicationCon
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/jpa_demo");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/music_manager");
         dataSource.setUsername("root");
         dataSource.setPassword("Root123.");
         return dataSource;

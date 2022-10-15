@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #name_blog {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 5px;
+        }
+        .box_blog {
+            width: 800px;
+            height: 600px;
+            border: solid 2px black;
+            margin: 0 auto;
+        }
+        .box_blog form input {
+            width: 98%;
+        }
+        .box_blog form textarea {
+            width: 98%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div th:insert="~{/common_blog::headerBlog}"></div>
+<div class="box_blog">
+    <form action="/save/blog" method="post" th:object="${form}" enctype="multipart/form-data">
+        <input type="number" hidden th:field = "*{id}">
+        <p>Title</p>
+        <input type="text" th:field = "*{name}">
+        <p>Content</p>
+        <textarea th:field ="*{content}"}></textarea>
+        <p>IMG</p>
+        <input type="file" value="multipartFile" th:field="*{imageUpload}">
+        <br>
+        <button type="submit">Add</button>
+    </form>
+</div>
+
+</body>
+</html>

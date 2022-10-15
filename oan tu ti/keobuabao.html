@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keo Bua Bao</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="style.js"></script>
+    <!-- <iframe src="music/music-background.mp3" frameborder="0" width="0" height="0
+    " ></iframe> -->
+    <link rel="icon" href="logo/bua-phai.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <p class="title">Nào cùng mình chơi búa kéo bao nha 1 2 3 ...</p>
+    <div class="input">
+      <img src="logo/bua-logo.png" class="logo" onclick=" getValuePeople(0)" />
+      <img src="logo/keo-logo.png" class="logo" onclick=" getValuePeople(1)" />
+      <img src="logo/bao-logo.jfif" class="logo" onclick=" getValuePeople(2)" />
+    </div>
+    <br />
+    <br />
+    <p class="title" id="resultOfGame"></p>
+    <div class="result" id="resultOfPct"></div>
+
+    <p class="score">
+      Điểm của bạn là <span id="scorePeople">0</span> &nbsp; &nbsp; &nbsp;
+      &nbsp; Điểm của máy là <span id="scoreAuto">0</span>
+    </p>
+  </body>
+</html>

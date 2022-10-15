@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #name_blog {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 5px;
+        }
+
+        .general_blog {
+            width: 100%;
+            height: 90px;
+            border: solid 1px black;
+            display: flex;
+            /* align-items: center; */
+            justify-content: start;
+            gap: 5px;
+            margin-bottom: 5px;
+        }
+
+        .general_blog img {
+            width: 100px;
+            height: 100%;
+        }
+
+        .action {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div th:insert="~{/common_blog::headerBlog}"></div>
+<!--<p id="name_blog">Blog Cua ME</p>-->
+<div class="action">
+    <p>List Blog</p>
+    <button><a th:href="@{/save/0}">ADD NEW</a></button>
+</div>
+<div >
+    <div th:each=" b : ${list} ">
+        <div class="general_blog">
+            <div >
+                <img th:src="${b.getUrlImage()}">
+            </div>
+            <div>
+                <p><a th:href="@{blog/{id} (id = ${b.getId()})}" th:text="${b.getName()}"></a></p>
+                <button><a th:href="@{/save/{id} (id = ${b.getId()})}">EDIT</a></button>
+                <button><a th:href="@{/delete/{id} (id = ${b.getId()})}">DELETE</a></button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

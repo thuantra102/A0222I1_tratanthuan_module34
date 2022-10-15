@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<button id="random">Random</button>
+<br>
+<img th:src="${urlImage}" id="img">
+<form th:object="${form}" action="/add" method="post">
+    <input hidden  th:field ="*{idImage}"  id="idImage">
+    <input hidden th:field = "*{urlImage}"} id="urlImg">
+    <p>Author</p>
+    <input type="text" th:field = "*{author}">
+    <p>Feed Back</p>
+    <textarea  th:field = "*{feedBack}"></textarea>
+    <br>
+    <button type="submit" id="comment">Comment</button>
+</form>
+<table>
+    <tr th:each="i : ${list}">
+        <hr>
+        Author : <p th:text="${i.author}"></p>
+        Feedback: <p th:text="${i.feedBack}"></p>
+    </tr>
+</table>
+</body>
+<script>
+    document.getElementById("random").addEventListener("click",() => {
+        let a =  Math.floor(Math.random() * (3 - 1)) + 1
+        console.log(a)
+        document.getElementById("idImage").value = a;
+        fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=" + a)
+        .then(res => res.json())
+        .then((data)=> {
+            document.getElementById("img").src = data[0].url;
+            document.getElementById("urlImg").value = data[0].url;
+            console.log(data[0].url)
+        })
+    })
+
+</script>
+
+</html>
