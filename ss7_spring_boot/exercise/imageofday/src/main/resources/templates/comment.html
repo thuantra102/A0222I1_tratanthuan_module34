@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Comment</title>
+    <style>
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<h3>COMMENT</h3>
+
+<form th:object="${commentForm}" action="/saveComment" method="post">
+    <img th:src="${imageId.urlImg}">
+    <input hidden type="number" th:value="${id}" name="id">
+    <input hidden type="text" th:value="#{imageId.urlImg}" name="urlImage">
+    <hr>
+    <p>Author</p>
+    <input type="text" th:field="*{author}">
+    <p>Feedback</p>
+    <textarea  th:field="*{feedBack}" >
+
+    </textarea>
+    <p>Star rate</p>
+    <select th:field="*{starts}">
+        <option value="1">1 Stars</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+    </select>
+    <button type="submit">Comment</button>
+</form>
+
+
+</body>
+</html>

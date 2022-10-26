@@ -5,57 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaf18b31-04d2-4c8f-a888-6870a0704831" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/service/ICrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/service/impl/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/java/com/example/demo/service/impl/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/resources/static/css/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/resources/static/js/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/demo/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/doodling_funamental_spring_boot/src/main/java/com/example/doodling_funamental_spring_boot/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/doodling_funamental_spring_boot/src/main/java/com/example/doodling_funamental_spring_boot/CreateBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/doodling_funamental_spring_boot/src/main/java/com/example/doodling_funamental_spring_boot/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/doodling_funamental_spring_boot/src/main/java/com/example/doodling_funamental_spring_boot/Girl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss1/exercise/e2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1/exercise/e2/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/common_blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/common_blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/save.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/save.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/E1Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/model/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/repository/CategoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/service/ICrudService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/resources/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/test/java/com/example/e1/E1ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/src/main/java/com/example/exercise/ExerciseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/src/test/java/com/example/exercise/ExerciseApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/controller/ImageOfDayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/model/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/ICrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/imp/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/imp/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/resources/templates/comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +93,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -242,6 +211,7 @@
       <workItem from="1666688518869" duration="284000" />
       <workItem from="1666689695524" duration="66000" />
       <workItem from="1666710288114" duration="1762000" />
+      <workItem from="1666716647650" duration="61000" />
     </task>
     <servers />
   </component>

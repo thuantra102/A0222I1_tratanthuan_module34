@@ -5,147 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c466e5d7-d97c-41c5-b107-90e995dc3288" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/exercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/config/AppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/controller/Image.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/model/ImageModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/repository/ImageRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/service/ICrudService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/service/IImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/service/ImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/e2-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/ImageModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/repository/ImageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/ICrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/IImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music_manager/src/main/java/com/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music_manager/src/main/java/com/repository/MusicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music_manager/src/main/java/com/service/ICrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music_manager/src/main/java/com/service/IMusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music_manager/src/main/java/com/service/MusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music_manager/src/main/webapp/view/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/HttpDownloadUtility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/out/production/untitled/HttpDownloader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/HttpDownloadUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/src/HttpDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/model/BlogModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/service/IBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/java/com/service/ICrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/common_blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/save.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/src/main/webapp/view/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/java/com/example/e1/E1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/e1/src/test/java/com/example/e1/E1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/src/main/java/com/example/exercise/ExerciseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/src/test/java/com/example/exercise/ExerciseApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss4_thymeleaf/exercise/e1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_thymeleaf/exercise/e1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss4_thymeleaf/exercise/e1/src/main/java/com/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_thymeleaf/exercise/e1/src/main/java/com/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build/classes/java/main/com/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/build/classes/java/main/com/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build/classes/java/main/com/controller/MusicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/build/classes/java/main/com/controller/MusicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build/classes/java/main/com/repository/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build/classes/java/main/com/repository/Upload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build/classes/java/main/com/service/UploadService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build/libs/music_manager-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/build/libs/music_manager-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/src/main/java/com/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/src/main/java/com/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/src/main/java/com/controller/MusicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../music_manager/src/main/java/com/controller/MusicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/src/main/java/com/repository/Music.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/src/main/java/com/repository/Upload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/src/main/java/com/service/UploadService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../music_manager/src/main/webapp/index.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/controller/ImageOfDayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/model/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/repository/ImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/ICrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/imp/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/imp/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/resources/templates/comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -316,6 +195,7 @@
       <workItem from="1665538815300" duration="1285000" />
       <workItem from="1665541951992" duration="1736000" />
       <workItem from="1665573362605" duration="2805000" />
+      <workItem from="1666716686245" duration="17000" />
     </task>
     <servers />
   </component>
