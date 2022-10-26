@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Music Form</h3>
+<form action="/valid" method="get" th:object="${formMusic}">
+    <p>Name</p>
+    <input type="text" th:field="*{musicName}">
+    <p style="color: red" th:if="${#fields.hasErrors('musicName')}" th:errors="*{musicName}"></p>
+    <p>Singer</p>
+    <input type="text" th:field="*{singer}">
+    <p style="color: red" th:if="${#fields.hasErrors('singer')}" th:errors="*{singer}"></p>
+    <p>Music Type</p>
+    <input type="text" th:field="*{musicType}">
+    <p style="color: red" th:if="${#fields.hasErrors('musicType')}" th:errors="*{musicType}"></p>
+    <button type="submit">SUBMIT</button>
+</form>
+</body>
+</html>
