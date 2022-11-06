@@ -5,26 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eaf18b31-04d2-4c8f-a888-6870a0704831" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/controller/ImageOfDayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/model/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/repository/ImageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/ICrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/imp/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/java/com/example/imageofday/service/imp/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/resources/templates/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_boot/exercise/imageofday/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../e2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/controller/LibraryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/model/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/repository/CodeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/repository/StatusRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/service/ICrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/service/impl/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/service/impl/CodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/java/com/codegym/service/impl/StatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/resources/templates/borrow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/resources/templates/code.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss9_aop/exercise/brow_book/bookBrowing/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/build/libs/blog-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss6_jpa/exercise/blog/build/libs/blog-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -212,6 +215,8 @@
       <workItem from="1666689695524" duration="66000" />
       <workItem from="1666710288114" duration="1762000" />
       <workItem from="1666716647650" duration="61000" />
+      <workItem from="1667378781915" duration="1305000" />
+      <workItem from="1667392175443" duration="755000" />
     </task>
     <servers />
   </component>
