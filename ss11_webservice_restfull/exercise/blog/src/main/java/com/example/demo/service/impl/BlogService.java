@@ -44,4 +44,7 @@ public class BlogService implements ICrudService<Blog> {
     public String selectContent(Long id) {
         return blogRepository.selectContent(id);
     }
+    public List<Blog> findAllByName(String name) {
+        return blogRepository.findAllByNameContaining(name);
+    }
 }

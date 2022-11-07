@@ -16,4 +16,5 @@ public interface BlogRepository extends JpaRepository<Blog,Long> {
     List<Blog> findAllByCategory(@Param("id") Long id );
     @Query(nativeQuery = true, value = "select content from blog b where b.id=  :id")
     String selectContent(@Param("id") Long id );
+    List<Blog> findAllByNameContaining(String name);
 }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <input placeholder="Enter name blog" type="text" id="nameSearch" />
+  <button id="search" onclick="search()">Searh</button>
+  <h3>List Blog</h3>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Date</th>
+        <th>IMG</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+
+  </table>
+  <button id="load">Load More</button>
+  <p id="mess"></p>
+</body>
+<script>
+  function addNewRow(newRow) {
+    $("table tbody").append(newRow);
+  }
+  function fetchData(url) {
+    $.ajax({
+      url: url,
+      type: "GET",
+      success: function (result) {
+        let arr = result.content;
+        for (let index = 0; index < arr.length; index++) {
+          addNewRow(`<tr> <td>${arr[index].name}</td>  <td>${arr[index].category.category}</td> <td>${arr[index].dateUpload}</td> <td><img src="${arr[index].urlImage}"></td> </tr>`)
+
+        }
+      },
+      error: function (event) {
+        if (event.status == 400) {
+          document.getElementById("mess").innerText = "Full record";
+        }
+      }
+
+    })
+
+  }
+  fetchData("http://localhost:8080/api/listBlog")
+
+  let page = 1;
+  $(document).ready(function () {
+    $("#load").click(function () {
+      fetchData("http://localhost:8080/api/listBlog?page=" + page)
+      page = page + 1;
+      console.log(page);
+    })
+  });
+
+  function search() {
+    $("table tbody").empty();
+    fetchData("http://localhost:8080/api/listBlog?nameSearch=" + document.getElementById("nameSearch").value);
+    page = 1;
+
+  }
+
+
+
+
+</script>
+
+</html>
