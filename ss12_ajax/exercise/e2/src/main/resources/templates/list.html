@@ -56,6 +56,45 @@
                     }
                     console.log(content)
                     document.getElementById('smartphoneList').innerHTML = content;
+
+                    $('.deleteSmartphone').click(function (event) {
+                        event.preventDefault();
+                        alert("Do you want to delete")
+                        //lay du
+                        let a = $(this);
+                        let smartphoneId = a.attr("href");
+                        console.log(smartphoneId)
+                        // goi ajax
+                        $.ajax({
+                            type: "DELETE",
+                            //tên API
+                            url: `/smartphones/${smartphoneId}`,
+                            //xử lý khi thành công
+                            success: function (data) {
+                                a.parent().parent().remove();
+                            }
+
+                        });
+                        //chặn sự kiện mặc định của thẻ
+                    });
+                    $('.editSmartphone').click(function (event) {
+                        event.preventDefault();
+                        alert("Edit?")
+                        //lay du
+                        let a = $(this);
+                        let smartphoneId = a.attr("href");
+                        $.ajax({
+                            type: "GET",
+                            url: `/smartphones/getById/${smartphoneId}`,
+                            success: function (data) {
+                                console.log(data);
+                                $('#producer').val(data.producer);
+                                $('#id').val(data.id);
+                                $('#model').val(data.model);
+                                $('#price').val(data.price);
+                            }
+                        })
+                    })
                     $('#producer').val("");
                     $('#id').val("");
                     $('#model').val("");
@@ -77,46 +116,46 @@
 
 
             //sư kiện nào thực hiện Ajax
-            $('.deleteSmartphone').click(function (event) {
-                event.preventDefault();
-                alert("Do you want to delete")
-                //lay du
-                let a = $(this);
-                let smartphoneId = a.attr("href");
-                console.log(smartphoneId)
-                // goi ajax
-                $.ajax({
-                    type: "DELETE",
-                    //tên API
-                    url: `/smartphones/${smartphoneId}`,
-                    //xử lý khi thành công
-                    success: function (data) {
-                        a.parent().parent().remove();
-                    }
-
-                });
-                //chặn sự kiện mặc định của thẻ
-            });
+            // $('.deleteSmartphone').click(function (event) {
+            //     event.preventDefault();
+            //     alert("Do you want to delete")
+            //     //lay du
+            //     let a = $(this);
+            //     let smartphoneId = a.attr("href");
+            //     console.log(smartphoneId)
+            //     // goi ajax
+            //     $.ajax({
+            //         type: "DELETE",
+            //         //tên API
+            //         url: `/smartphones/${smartphoneId}`,
+            //         //xử lý khi thành công
+            //         success: function (data) {
+            //             a.parent().parent().remove();
+            //         }
+            //
+            //     });
+            //     //chặn sự kiện mặc định của thẻ
+            // });
         })
         $(document).ready(function () {
-            $('.editSmartphone').click(function (event) {
-                event.preventDefault();
-                alert("Edit?")
-                //lay du
-                let a = $(this);
-                let smartphoneId = a.attr("href");
-                $.ajax({
-                    type: "GET",
-                    url: `/smartphones/getById/${smartphoneId}`,
-                    success: function (data) {
-                        console.log(data);
-                        $('#producer').val(data.producer);
-                        $('#id').val(data.id);
-                        $('#model').val(data.model);
-                        $('#price').val(data.price);
-                    }
-                })
-            })
+            // $('.editSmartphone').click(function (event) {
+            //     event.preventDefault();
+            //     alert("Edit?")
+            //     //lay du
+            //     let a = $(this);
+            //     let smartphoneId = a.attr("href");
+            //     $.ajax({
+            //         type: "GET",
+            //         url: `/smartphones/getById/${smartphoneId}`,
+            //         success: function (data) {
+            //             console.log(data);
+            //             $('#producer').val(data.producer);
+            //             $('#id').val(data.id);
+            //             $('#model').val(data.model);
+            //             $('#price').val(data.price);
+            //         }
+            //     })
+            // })
         })
     </script>
 </head>

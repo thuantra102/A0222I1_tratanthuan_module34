@@ -17,6 +17,16 @@
     <script language="JavaScript" th:src="@{js/list.js}"></script>
 </head>
 <body>
+Hello <span style="color: red; width: 19" th:text="${userInfo}"></span>
+<div th:if="${userInfo != 'Anonymous'}">
+    <button><a th:href="@{/logout}">Logout  </a></button>
+</div>
+<div th:if="${userInfo == 'Anonymous'}">
+    <button><a th:href="@{/login}">Login  </a></button>
+</div>
+<div>
+    <button><a th:href="@{/register}">Register  </a></button>
+</div>
 <div class="container-xl">
     <div class="table-responsive">
         <div class="table-wrapper">
